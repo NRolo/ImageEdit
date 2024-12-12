@@ -28,8 +28,8 @@ namespace ImageEdit
             {
 
                 var geometry = new MagickGeometry();
-                geometry.Width = Width;
-                geometry.Height = Height;
+                geometry.Width = (uint)Width;
+                geometry.Height = (uint)Height;
                 geometry.X = xOffSet;
                 geometry.Y = yOffSet;
 
@@ -49,7 +49,7 @@ namespace ImageEdit
         {
             using (var image = new MagickImage(SourceContent))
             {
-                var size = new MagickGeometry(MaxWidth, MaxHeight)
+                var size = new MagickGeometry((uint)MaxWidth, (uint)MaxHeight)
                 {
                     // This will resize the image to a fixed size without maintaining the aspect ratio.
                     // Normally an image will be resized to fit inside the specified size.
@@ -70,8 +70,8 @@ namespace ImageEdit
         {
 
             var info = new MagickImageInfo(SourceContent);
-            Width = info.Width;
-            Height = info.Height;
+            Width = (int) info.Width;
+            Height = (int) info.Height;
 
 
         } // MssIdentify
