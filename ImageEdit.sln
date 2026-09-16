@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageEdit", "ImageEdit\ImageEdit.csproj", "{642FDE8F-0D3C-4160-A082-19E40E403102}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageEdit.UnitTests", "ImageEdit.UnitTests\ImageEdit.UnitTests.csproj", "{4C628883-FAED-470D-980F-4150284BEC5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{642FDE8F-0D3C-4160-A082-19E40E403102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{642FDE8F-0D3C-4160-A082-19E40E403102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{642FDE8F-0D3C-4160-A082-19E40E403102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C628883-FAED-470D-980F-4150284BEC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C628883-FAED-470D-980F-4150284BEC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C628883-FAED-470D-980F-4150284BEC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C628883-FAED-470D-980F-4150284BEC5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
